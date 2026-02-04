@@ -22,29 +22,26 @@ The Sandbox was experiencing explosive growth, and its infrastructure was strugg
 
 My approach was to build a world-class platform engineering organization that could provide the scalability, reliability, security, and compliance that the business needed. I focused on three key areas:
 
-1.  **People:** I restructured the organization into 24 cross-functional squads, each with a clear mission and a high degree of autonomy. I hired and developed top talent, and I created a culture of collaboration, innovation, and accountability.
-2.  **Process:** I implemented a modern, agile development process based on DevOps and SRE principles. We automated everything from infrastructure provisioning to application deployment, and we used data to drive our decisions and measure our success.
-3.  **Technology:** I led the migration to a multi-cloud architecture based on AWS and Azure. We used a variety of cloud-native technologies, including Kubernetes, Docker, and Terraform, to build a scalable, resilient, and secure platform.
+1.  **People:** I launched a DevOps community, identified DevOps Ambassadors on each role (PMs, POs, QA, DEV, LD, GD, Community, Education,...) restructured the organization with clearly set RASCI matrices, each PM took the Scrum Master role within the 24 cross-functional squads, pushed towards a high degree of autonomy. I coached top talent, and I created a culture of collaboration, innovation, and accountability.
+2.  **Process:** I implemented a modern, agile development process based on DevOps and SRE principles. We automated most of them from infrastructure provisioning to application deployment, as well as end-users support flows. We used data to drive our decisions and measure our success.
 
 ## Technical Strategy
 
 Our technical strategy was to build a cloud-native platform that could scale to meet the demands of the metaverse. The key components of our strategy were:
 
--   **Multi-Cloud:** We used a multi-cloud strategy to avoid vendor lock-in and to take advantage of the best features of each cloud provider. We used AWS for our core infrastructure and Azure for our data and analytics workloads.
 -   **Kubernetes:** We used Kubernetes to orchestrate our containerized applications. This allowed us to scale our applications up and down as needed, and it provided a high degree of resilience and fault tolerance.
 -   **Infrastructure as Code:** We used Terraform to manage our infrastructure as code. This allowed us to automate the provisioning of our infrastructure, and it ensured that our infrastructure was consistent and repeatable.
 -   **CI/CD:** We built a fully automated CI/CD pipeline that allowed us to deploy new code to production multiple times a day. This allowed us to iterate quickly and to get new features into the hands of our users as fast as possible.
--   **Observability:** We implemented a comprehensive observability stack based on Datadog, Prometheus, and Grafana. This gave us deep insights into the performance of our platform, and it allowed us to quickly identify and resolve issues.
+-   **Observability:** We implemented a comprehensive observability stack based on Datadog. This gave us deep insights into the performance of our platform, and it allowed us to quickly identify and resolve issues.
 
 ## Key Achievements
 
 -   **Scaled the platform to support 8M+ users and 400+ brand partners.**
 -   **Improved platform uptime from 99.9% to 99.99%.**
 -   **Reduced P1 incident response time from >1 hour to <15 minutes.**
--   **Increased deployment frequency from once a month to 20+ times a day.**
--   **Reduced infrastructure costs by $250K annually through FinOps practices.**
--   **Achieved SOC 2 Type 2 and ISO 27001 compliance.**
--   **Built a high-performing team of 144 engineers across 24 squads.**
+-   **Increased deployment frequency from once a month to 20+ times a day or weekly for certain services**
+-   **Reduced infrastructure costs by $250K annually through FinOps practices and implementation of Vendr negotiation platform.**
+-   **Achieved AWS recorgnition further to yearly audits following their framework.**
 
 ## Lessons Learned
 
